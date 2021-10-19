@@ -52,7 +52,32 @@ const Movie = () => {
         <button onClick={launchRazorPay} class="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
           Book tickets
         </button>
-        
+        <div className="my-8">
+                    <hr />
+                </div>
+
+                <div className="container mx-auto px-4">
+            <MovieSlider {...settings}
+            images={castImages}
+            title="Cast"
+            isDark={false}
+
+           
+            />
+            </div>
+            <div className="my-8">
+                    <hr />
+                </div>
+
+                <div className="container mx-auto px-4">
+            <MovieSlider {...settings}
+            images={crewImages}
+            title="Crew"
+            isDark={false}
+
+           
+            />
+            </div>
       </div>
       
       </>
