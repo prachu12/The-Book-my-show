@@ -1,6 +1,13 @@
 import React from "react";
+import movieNavbar from "../Components/Navbar/movieNavbar.component";
 import MovieHero from "../Components/MovieHero/MovieHero.component";
 import {BiCameraMovie} from "react-icons/bi";
+
+import settings from '../config/castconfig';
+import MovieSlider from "../Components/PosterSlider/MovieSlider";
+import castImages  from '../Components/PosterSlider/castdata';
+import crewImages  from '../Components/PosterSlider/crewData';
+
 
 const launchRazorPay = () => {
   const options = {
